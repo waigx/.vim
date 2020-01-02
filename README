@@ -5,7 +5,26 @@ BASH configuration
 
     export VIMINIT="source ~/.vim/init.vim"
 
-vim-plug Installation
+
+Dependencies
+
+- vim-plug Installation
 
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+- fzf
+
+    https://github.com/junegunn/fzf
+
+- ripgrep
+
+    https://github.com/BurntSushi/ripgrep
+
+- bat
+
+    https://github.com/sharkdp/bat
+
+- Python 3
+
+- Node.js
