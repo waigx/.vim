@@ -6,7 +6,7 @@ set number
 set ruler
 set showcmd
 set showmatch
-set showtabline=2
+set showtabline=1
 set laststatus=2  
 set tabstop=4
 set shiftwidth=4

@@ -3,7 +3,8 @@
 if g:uname == "Darwin"
 "Begin for OS X
 if has('gui_running')
-	set guifont=FuraCode\ Nerd\ Font\ Regular:h12
+	set guifont=FuraCode\ Nerd\ Font:h13
+	set guioptions=
 	set transparency=0
 endif
 "End for OS X
