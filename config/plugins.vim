@@ -29,6 +29,7 @@ Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
 Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'heavenshell/vim-jsdoc'
+Plug 'avakhov/vim-yaml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 """""""""""""""""""""""""
