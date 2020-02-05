@@ -27,6 +27,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'dense-analysis/ale'
 Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
 Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
+Plug 'tpope/vim-markdown'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'avakhov/vim-yaml'
@@ -68,3 +69,4 @@ source $HOME/.vim/config/plugins/rainbow_parentheses.vim
 source $HOME/.vim/config/plugins/presenting.vim
 source $HOME/.vim/config/plugins/vim-choosewin.vim
 source $HOME/.vim/config/plugins/vim-clap.vim
+source $HOME/.vim/config/plugins/vim-markdown.vim
