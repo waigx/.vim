@@ -46,8 +46,7 @@ endfunction
 function! ListAllFiles()
 	call fzf#run(fzf#wrap({
 \		'source': 'rg -l ^ | devicon-lookup',
-\		'options': '--preview="convert {2..-1} jpg:- 2>/dev/null | jp2a -b --colors - 2>/dev/null
-\				|| bat --style=numbers --theme=zenburn --color=always {2..-1}"',
+\		'options': '--preview="bat --style=numbers --theme=zenburn --color=always {2..-1}"',
 \		'sink': function('EditDevIconPath'),
 \	}))
 endfunction

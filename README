@@ -33,14 +33,6 @@ Dependencies
 
     https://github.com/coreyja/devicon-lookup
 
-- ImageMagick
-
-    https://imagemagick.org
-
-- jp2a
-
-    https://github.com/cslarsen/jp2a
-
 - Python 3
 
 - Node.js
