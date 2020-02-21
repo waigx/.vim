@@ -10,10 +10,6 @@ set rtp+=~/.fzf
 "fzf window size and position
 let g:fzf_layout = {'down': '45%'}
 
-function! GetDevIcon(path)
-	return WebDevIconsGetFileTypeSymbol(a:path, isdirectory(a:path))
-endfunction
-
 function! EditDevIconPath(iconPath)
 	let firstSpc = stridx(a:iconPath, ' ')
 	let path = a:iconPath[firstSpc+1:]
@@ -23,12 +19,12 @@ endfunction
 "Add function for searching certain word
 function! SearchWordInDirectory(word)
 	echo 'Searching: ' . a:word
-	let @/ =a:word
-	let word="'" . a:word . "'"
+	let @/ = '\c' . a:word
+	let word = "'" . a:word . "'"
 	call fzf#run(fzf#wrap({
-\		'source': map(systemlist('rg -l ' . word), 'GetDevIcon(v:val) . " " . v:val'),
+\		'source': 'rg -il ' . word . ' | devicon-lookup',
 \		'options': '--preview="bat --style=numbers --theme=zenburn --color=always {2..-1}
-\				| rg --color always --colors match:bg:yellow --passthru ' . word . '"',
+\				| rg --ignore-case --color always --colors match:bg:yellow --passthru ' . word . '"',
 \		'sink': function('EditDevIconPath'),
 \	}))
 endfunction
@@ -49,7 +45,7 @@ endfunction
 "FZF with DevIcons
 function! ListAllFiles()
 	call fzf#run(fzf#wrap({
-\		'source': map(systemlist('rg -l ^'), 'GetDevIcon(v:val) . " " . v:val'),
+\		'source': 'rg -l ^ | devicon-lookup',
 \		'options': '--preview="convert {2..-1} jpg:- 2>/dev/null | jp2a -b --colors - 2>/dev/null
 \				|| bat --style=numbers --theme=zenburn --color=always {2..-1}"',
 \		'sink': function('EditDevIconPath'),
