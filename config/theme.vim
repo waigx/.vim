@@ -5,7 +5,7 @@ if has('gui_running')
 "For OS X
 if g:uname == "Darwin"
 "Begin for OS X
-	set guifont=FuraCode\ Nerd\ Font:h13
+	set guifont=SFMono\ Nerd\ Font:h13
 	set transparency=1
 "End for OS X
 endif
@@ -20,9 +20,11 @@ endif
 if has('gui_running')
 	"colorscheme Tomorrow
 	"colorscheme Tomorrow-Night-Eighties
-	colorscheme seoul256
+	"colorscheme seoul256
+    colorscheme xcodelight
 else
 	"colorscheme Tomorrow-Night-Eighties
-	colorscheme seoul256
+	"colorscheme seoul256
+    colorscheme xcodedark
 endif
-let g:airline_theme='bubblegum'
+let g:airline_theme='deus'
