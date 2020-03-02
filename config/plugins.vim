@@ -53,6 +53,7 @@ Plug 'nightsense/snow'
 Plug 'nightsense/stellarized'
 Plug 'arcticicestudio/nord-vim'
 Plug 'nightsense/cosmic_latte'
+Plug 'arzg/vim-colors-xcode'
 
 Plug 'sotte/presenting.vim'
 
