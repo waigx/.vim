@@ -41,7 +41,7 @@ function! SearchWordInDirectory(word)
 	let word = "'" . a:word . "'"
 	call fzf#run(fzf#wrap({
 \		'source': 'rg -il ' . word . s:pathPipelineSink,
-\		'options': '--preview="' . s:previewPipelineSource . '"
+\		'options': '--preview="' . s:previewPipelineSource . '
 \				| rg --ignore-case --color always --colors match:bg:yellow --passthru ' . word . '"',
 \		'sink': function('EditDevIconPath'),
 \	}))
