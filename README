@@ -13,9 +13,9 @@ Dependencies
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-- Fura Code Nerd Font
+- Any Nerd Fonts
 
-    https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode
+    https://www.nerdfonts.com
 
 - fzf
 
@@ -25,14 +25,15 @@ Dependencies
 
     https://github.com/BurntSushi/ripgrep
 
-- bat
-
-    https://github.com/sharkdp/bat
-
-- devicon-lookup
-
-    https://github.com/coreyja/devicon-lookup
-
 - Python 3
 
 - Node.js
+
+- bat (optional)
+
+    https://github.com/sharkdp/bat
+
+- devicon-lookup (optional)
+
+    https://github.com/coreyja/devicon-lookup
+
