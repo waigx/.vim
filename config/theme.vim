@@ -21,7 +21,7 @@ if has('gui_running')
 	"colorscheme Tomorrow
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
-    colorscheme xcodelight
+    colorscheme xcodewwdc
 else
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
