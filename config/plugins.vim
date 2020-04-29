@@ -8,6 +8,8 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux'
+Plug 'tpope/vim-obsession'
+Plug 'dhruvasagar/vim-prosession'
 Plug 'benmills/vimux'
 Plug 'google/vim-searchindex'
 Plug 'tpope/vim-fugitive'
@@ -57,8 +59,11 @@ Plug 'nightsense/stellarized'
 Plug 'arcticicestudio/nord-vim'
 Plug 'nightsense/cosmic_latte'
 Plug 'arzg/vim-colors-xcode'
-
 Plug 'sotte/presenting.vim'
+
+"""""""""""""""""""""""""
+"External configurations
+Plug 'waigx/.tmux', { 'dir': $HOME . '/.tmux', 'do': 'ln -s $HOME/.tmux/tmux.conf $HOME/.tmux.conf' }
 
 call plug#end()
 
@@ -74,3 +79,4 @@ source $HOME/.vim/config/plugins/presenting.vim
 source $HOME/.vim/config/plugins/vim-choosewin.vim
 source $HOME/.vim/config/plugins/vim-clap.vim
 source $HOME/.vim/config/plugins/vim-markdown.vim
+source $HOME/.vim/config/plugins/vim-prosession.vim
