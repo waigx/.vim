@@ -63,7 +63,7 @@ Plug 'sotte/presenting.vim'
 
 """""""""""""""""""""""""
 "External configurations
-Plug 'waigx/.tmux', { 'dir': $HOME . '/.tmux', 'do': 'ln -s $HOME/.tmux/tmux.conf $HOME/.tmux.conf' }
+Plug 'waigx/.tmux', { 'dir': $HOME . '/.tmux', 'do': './install.sh' }
 
 call plug#end()
 
