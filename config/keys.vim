@@ -48,7 +48,7 @@ let g:gundo_prefer_python3 = 1
 map <leader>z :GundoToggle<CR>
 
 "Map ctrl+] for typescript file
-autocmd FileType typescript,typescript.tsx nnoremap <C-]> :TSDef<CR>
+autocmd FileType typescript,typescript.tsx,typescriptreact nmap <silent> <C-]> <Plug>(coc-definition)
 "Map 'JsDoc'
 map <leader>j :JsDoc<CR>
 "Map Auto Lint Fix
