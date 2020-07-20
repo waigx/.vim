@@ -22,10 +22,12 @@ set nocursorcolumn
 set list
 set listchars=tab:┊\ ,trail:·
 set expandtab
+"Undo persistence
+set undofile
+set undodir=$HOME/.vim/undos
 
 "help window open on right
 autocmd FileType help wincmd L
-
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 "Set customize functions
