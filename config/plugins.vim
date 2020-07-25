@@ -27,6 +27,7 @@ Plug 'liuchengxu/vim-clap'
 
 """""""""""""""""""""""""
 "Language supports
+Plug 'rust-lang/rust.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'dense-analysis/ale'
 Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
