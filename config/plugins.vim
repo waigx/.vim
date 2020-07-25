@@ -86,3 +86,4 @@ source $HOME/.vim/config/plugins/vim-choosewin.vim
 source $HOME/.vim/config/plugins/vim-clap.vim
 source $HOME/.vim/config/plugins/vim-markdown.vim
 source $HOME/.vim/config/plugins/vim-prosession.vim
+source /Users/waigx/.vim/config/plugins/vim-startify.vim
