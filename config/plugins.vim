@@ -24,11 +24,12 @@ Plug 'junegunn/goyo.vim', {'on': 'Goyo'}
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'}
 Plug 't9md/vim-choosewin'
 Plug 'liuchengxu/vim-clap'
+Plug 'mhinz/vim-startify'
 
 """""""""""""""""""""""""
 "Language supports
 Plug 'rust-lang/rust.vim'
-Plug 'vim-syntastic/syntastic'
+"Plug 'vim-syntastic/syntastic'
 Plug 'dense-analysis/ale'
 Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
 Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
@@ -38,6 +39,7 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'avakhov/vim-yaml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kchmck/vim-coffee-script'
+Plug 'jmcantrell/vim-virtualenv'
 
 """""""""""""""""""""""""
 "Themes

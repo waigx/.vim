@@ -25,6 +25,8 @@ set expandtab
 "Undo persistence
 set undofile
 set undodir=$HOME/.vim/undos
+"Default shell
+set shell=bash\ -l
 
 "help window open on right
 autocmd FileType help wincmd L
