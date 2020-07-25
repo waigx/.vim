@@ -68,8 +68,11 @@ Plug 'sotte/presenting.vim'
 "External configurations
 Plug 'waigx/.tmux', { 'dir': $HOME . '/.tmux', 'do': './install.sh' }
 
-call plug#end()
+"""""""""""""""""""""""""
+"Plugin debugging
+Plug 'tweekmonster/startuptime.vim'
 
+call plug#end()
 
 """""""""""""""""""""""""
 "Plugin Configurations
