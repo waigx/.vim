@@ -49,6 +49,8 @@ map <leader>z :GundoToggle<CR>
 
 "Map ctrl+] for typescript file
 autocmd FileType typescript,typescript.tsx,typescriptreact nmap <silent> <C-]> <Plug>(coc-definition)
+"Map ctrl+] for python file
+autocmd FileType python nmap <silent> <C-]> <Plug>(coc-definition)
 "Map 'JsDoc'
 map <leader>j :JsDoc<CR>
 "Map Auto Lint Fix
