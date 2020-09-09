@@ -63,6 +63,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'nightsense/cosmic_latte'
 Plug 'arzg/vim-colors-xcode'
 Plug 'sotte/presenting.vim'
+Plug 'lifepillar/vim-solarized8'
 
 """""""""""""""""""""""""
 "External configurations

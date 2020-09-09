@@ -21,10 +21,12 @@ if has('gui_running')
 	"colorscheme Tomorrow
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
-	silent! colorscheme xcodewwdc
+    set background=light
+	silent! colorscheme solarized8
 else
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
-	silent! colorscheme xcodedark
+    set background=dark
+	silent! colorscheme solarized8
 endif
 let g:airline_theme='deus'
