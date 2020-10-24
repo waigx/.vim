@@ -5,7 +5,7 @@ if has('gui_running')
 "For OS X
 if g:uname == "Darwin"
 "Begin for OS X
-	set guifont=PragmataProMonoLiga\ Nerd\ Font:h14
+	set guifont=PragmataProMonoLiga\ Nerd\ Font:h16
 	set transparency=1
 "End for OS X
 endif
