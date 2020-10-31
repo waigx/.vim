@@ -24,7 +24,7 @@ nmap <C-p> :call ListAllFiles()<CR>
 "Map leader+p to search directories
 nmap <leader>p :call ListAllDirs()<CR>
 "Map ctrl+b to search buffers
-nmap <leader>b :call ShowAllBuffers()<CR>
+nmap <leader>b :Clap buffers<CR>
 "Map ctrl+e in insert mode to execute cmd
 imap <C-e> <esc>:call ExecuteCurrentLine()<CR>i
 
