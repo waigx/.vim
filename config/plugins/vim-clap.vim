@@ -1,3 +1,15 @@
-"let g:clap_theme = 'material_design_dark'
-autocmd FileType clap_input inoremap <silent> <buffer> <C-n> <C-R>=clap#handler#navigate_result('down')<CR>
-autocmd FileType clap_input inoremap <silent> <buffer> <C-p> <C-R>=clap#handler#navigate_result('up')<CR>
+let g:clap_theme = 'material_design_dark'
+let g:clap_layout = {
+    \'relative': 'editor',
+    \'width': '60%',
+    \'height': '70%',
+    \'row': '15%',
+    \'col': '20%'
+\}
+
+let g:clap_popup_move_manager = {
+    \'\<C-N>': '\<Down>',
+    \'\<C-P>': '\<Up>',
+\}
+
+let g:clap_preview_size = 15

@@ -22,7 +22,7 @@ else
 endif
 
 "fzf window size and position
-let g:fzf_layout = {'down': '45%'}
+let g:fzf_layout = { 'window': { 'width': 0.7, 'height': 0.6 } }
 
 function! EditDevIconPath(iconPath)
 	if (s:pathPipelineSink) == ""
