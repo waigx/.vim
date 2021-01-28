@@ -7,3 +7,12 @@ set encoding=utf-8
 if has("unix")
 	let g:uname = substitute(system('uname -s'), "\n", "", "")
 endif
+
+
+"""""""""""""""""""""""""
+"Get avaiable terms
+if executable("zsh")
+	let g:preferedTerm = "zsh -l"
+elseif executable("bash")
+	let g:preferedTerm = "bash -l"
+endif

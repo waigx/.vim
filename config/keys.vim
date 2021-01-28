@@ -39,6 +39,10 @@ map <leader>l :Limelight!!<CR>
 "Map clap
 map <leader><Space> :Clap<CR>
 
+"Map floaterm
+map <C-t> :call ToggleFloatTerm()<CR>
+tmap <silent> <C-t> <C-w>:call ToggleFloatTerm()<CR>
+
 "Map ctrl+b/f in insert mode to navigate
 imap <C-b> <Left>
 imap <C-f> <Right>

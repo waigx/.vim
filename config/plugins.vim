@@ -25,6 +25,7 @@ Plug 'junegunn/limelight.vim', {'on': 'Limelight'}
 Plug 't9md/vim-choosewin'
 Plug 'liuchengxu/vim-clap'
 Plug 'mhinz/vim-startify'
+Plug 'voldikss/vim-floaterm'
 
 """""""""""""""""""""""""
 "Language supports
@@ -40,6 +41,7 @@ Plug 'avakhov/vim-yaml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kchmck/vim-coffee-script'
 Plug 'jmcantrell/vim-virtualenv'
+Plug 'mustache/vim-mustache-handlebars'
 
 """""""""""""""""""""""""
 "Themes
@@ -66,6 +68,10 @@ Plug 'sotte/presenting.vim'
 Plug 'lifepillar/vim-solarized8'
 
 """""""""""""""""""""""""
+"Game and extras
+Plug 'johngrib/vim-game-snake'
+
+"""""""""""""""""""""""""
 "External configurations
 Plug 'waigx/.tmux', { 'dir': $HOME . '/.tmux', 'do': './install.sh' }
 
@@ -88,3 +94,4 @@ source $HOME/.vim/config/plugins/vim-clap.vim
 source $HOME/.vim/config/plugins/vim-markdown.vim
 source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
+source $HOME/.vim/config/plugins/vim-floaterm.vim
