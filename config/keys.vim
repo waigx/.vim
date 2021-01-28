@@ -6,8 +6,6 @@ let mapleader = ","
 
 "Map toggle for highlight search and cursor
 map <leader>h :set hlsearch! cursorcolumn! cursorline!<CR>
-"Map shortcuts for fzf search word
-map <leader>* :call SearchCurrentWord()<CR>
 "Map tab shortcuts
 map <leader>n :tabe<CR>
 map <leader>t :tabe<CR>
@@ -19,11 +17,7 @@ map <leader>g :TagbarToggle<CR>
 map <leader>ck :SyntasticCheck<CR>
 "Map 'Spell Checking'
 map <leader>sc :call SpellCheckToggle()<CR>
-"Map ctrl+p to search files
-nmap <C-p> :call ListAllFiles()<CR>
-"Map leader+p to search directories
-nmap <leader>p :call ListAllDirs()<CR>
-"Map ctrl+b to search buffers
+"Map leader+b to search buffers
 nmap <leader>b :Clap buffers<CR>
 "Map ctrl+e in insert mode to execute cmd
 imap <C-e> <esc>:call ExecuteCurrentLine()<CR>i
@@ -70,7 +64,7 @@ autocmd FileType rst,markdown nnoremap <F5> :call TogglePresenting()<CR>
 
 "Map Run Current Script
 map <leader>e :call append(line(0), "#!/usr/bin/env " . &filetype)<CR>
-map <leader>r :!chmod a+x "%:p";"%:p"<CR>
+map <leader>x :!chmod a+x "%:p";"%:p"<CR>
 map <leader>cr :!chmod a+x "%:p";clear;"%:p"<CR>
 
 "Map capital K to find system manual in a new window
@@ -101,6 +95,16 @@ nnoremap + :tabn<CR>
 "Allow saving of files as sudo
 cmap w!! w !sudo tee % > /dev/null
 
+
 """"""""""""""""""""""""""
+"FZF related shortcuts
+"Map shortcuts for fzf search word
+map <leader>* :call SearchCurrentWord()<CR>
+"Map ctrl+p to search files
+nmap <C-p> :call ListAllFiles()<CR>
+"Map leader+p to search directories
+nmap <leader>p :call ListAllDirs()<CR>
+"Map <leader>+r to search tasks
+map <leader>r :AsyncTaskFzf<CR>
 "Searching word in workspace
 command -nargs=+ S :call SearchWordInDirectory(<q-args>)

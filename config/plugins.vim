@@ -68,6 +68,11 @@ Plug 'sotte/presenting.vim'
 Plug 'lifepillar/vim-solarized8'
 
 """""""""""""""""""""""""
+"Quick Task management
+Plug 'skywind3000/asynctasks.vim'
+Plug 'skywind3000/asyncrun.vim'
+
+"""""""""""""""""""""""""
 "Game and extras
 Plug 'johngrib/vim-game-snake'
 
@@ -95,3 +100,4 @@ source $HOME/.vim/config/plugins/vim-markdown.vim
 source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
 source $HOME/.vim/config/plugins/vim-floaterm.vim
+source $HOME/.vim/config/plugins/asyncrun.vim
