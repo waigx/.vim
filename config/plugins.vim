@@ -16,7 +16,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
-Plug 'majutsushi/tagbar', {'on': 'TagbarToggle'}
 Plug 'will133/vim-dirdiff', {'on': 'DirDiff'}
 Plug 'szw/vim-maximizer', {'on': 'MaximizerToggle'}
 Plug 'junegunn/gv.vim', {'on': 'GV'}
@@ -42,6 +41,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kchmck/vim-coffee-script'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'liuchengxu/vista.vim'
 
 """""""""""""""""""""""""
 "Themes
@@ -101,3 +101,4 @@ source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
 source $HOME/.vim/config/plugins/vim-floaterm.vim
 source $HOME/.vim/config/plugins/asyncrun.vim
+source $HOME/.vim/config/plugins/vista.vim

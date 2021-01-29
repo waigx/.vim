@@ -11,8 +11,8 @@ map <leader>n :tabe<CR>
 map <leader>t :tabe<CR>
 "Map shortcuts for Maxmize and restore a window
 map <leader>m :MaximizerToggle<CR>
-"Map shortcuts for Tagbar
-map <leader>g :TagbarToggle<CR>
+"Map shortcuts for Vista/Tagbar
+map <leader>g :Vista!!<CR>
 "Map 'Check Grammar'
 map <leader>ck :SyntasticCheck<CR>
 "Map 'Spell Checking'
