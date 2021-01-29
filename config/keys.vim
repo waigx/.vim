@@ -2,7 +2,7 @@
 "Set customize shortcuts
 
 "Set leader
-let mapleader = ","
+let mapleader = " "
 
 "Map toggle for highlight search and cursor
 map <leader>h :set hlsearch! cursorcolumn! cursorline!<CR>
