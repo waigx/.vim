@@ -36,6 +36,7 @@ map <leader><Space> :Clap<CR>
 "Map floaterm
 map <C-t> :call ToggleFloatTerm()<CR>
 tmap <silent> <C-t> <C-w>:call ToggleFloatTerm()<CR>
+tmap <silent> <C-d> <C-w>:FloatermKill<CR>
 
 "Map ctrl+b/f in insert mode to navigate
 imap <C-b> <Left>
