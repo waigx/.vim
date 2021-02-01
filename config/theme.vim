@@ -26,7 +26,8 @@ if has('gui_running')
 else
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
-    set background=dark
-	silent! colorscheme solarized8
+    "set background=dark
+	silent! colorscheme nord
 endif
-let g:airline_theme='deus'
+"let g:airline_theme='deus'
+let g:airline_theme='nord'
