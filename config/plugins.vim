@@ -25,6 +25,8 @@ Plug 't9md/vim-choosewin'
 Plug 'liuchengxu/vim-clap'
 Plug 'mhinz/vim-startify'
 Plug 'voldikss/vim-floaterm'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
 """""""""""""""""""""""""
 "Language supports
