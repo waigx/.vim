@@ -45,6 +45,8 @@ Plug 'jmcantrell/vim-virtualenv'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'liuchengxu/vista.vim'
 
+Plug 'puremourning/vimspector'
+
 """""""""""""""""""""""""
 "Themes
 Plug 'vim-airline/vim-airline'
@@ -104,3 +106,4 @@ source $HOME/.vim/config/plugins/vim-startify.vim
 source $HOME/.vim/config/plugins/vim-floaterm.vim
 source $HOME/.vim/config/plugins/asyncrun.vim
 source $HOME/.vim/config/plugins/vista.vim
+source $HOME/.vim/config/plugins/vimspector.vim
