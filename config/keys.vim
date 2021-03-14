@@ -7,7 +7,6 @@ let mapleader = " "
 "Map toggle for highlight search and cursor
 map <leader>h :set hlsearch! cursorcolumn! cursorline!<CR>
 "Map tab shortcuts
-map <leader>n :tabe<CR>
 map <leader>t :tabe<CR>
 "Map shortcuts for Maxmize and restore a window
 map <leader>m :MaximizerToggle<CR>
@@ -107,3 +106,14 @@ nmap <leader>p :call ListAllDirs()<CR>
 map <leader>r :AsyncTaskFzf<CR>
 "Searching word in workspace
 command -nargs=+ S :call SearchWordInDirectory(<q-args>)
+
+
+""""""""""""""""""""""""""
+"Debugging related shortcuts
+nmap <F3> :call vimspector#Restart()<CR>
+nmap <F4> :call vimspector#Reset()<CR>
+nmap <F5> :call vimspector#Continue()<CR>
+nmap <F6> :call vimspector#StepInto()<CR>
+nmap <F7> :call vimspector#StepOut()<CR>
+nmap <F8> :call vimspector#StepOver()<CR>
+nmap <F9> :call vimspector#ToggleBreakpoint()<CR>
