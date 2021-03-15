@@ -70,6 +70,8 @@ Plug 'nightsense/cosmic_latte'
 Plug 'arzg/vim-colors-xcode'
 Plug 'sotte/presenting.vim'
 Plug 'lifepillar/vim-solarized8'
+Plug 'jaredgorski/fogbell.vim'
+Plug 'reedes/vim-colors-pencil'
 
 """""""""""""""""""""""""
 "Quick Task management

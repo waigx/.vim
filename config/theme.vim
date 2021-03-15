@@ -27,7 +27,8 @@ else
 	"colorscheme Tomorrow-Night-Eighties
 	"colorscheme seoul256
     "set background=dark
-	silent! colorscheme nord
+	silent! colorscheme fogbell_light
 endif
 "let g:airline_theme='deus'
-let g:airline_theme='nord'
+"let g:airline_theme='nord'
+let g:airline_theme='minimalist'
