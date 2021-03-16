@@ -16,7 +16,7 @@ else
 endif
 
 if executable("bat")
-	let s:previewPipelineSource = "bat --style=numbers --theme=zenburn --color=always " . s:fzfFileSection
+	let s:previewPipelineSource = "bat --style=numbers --theme=OneHalfLight --color=always " . s:fzfFileSection
 else
 	let s:previewPipelineSource = "cat " . s:fzfFileSection
 endif

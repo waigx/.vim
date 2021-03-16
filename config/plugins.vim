@@ -22,7 +22,6 @@ Plug 'junegunn/gv.vim', {'on': 'GV'}
 Plug 'junegunn/goyo.vim', {'on': 'Goyo'}
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'}
 Plug 't9md/vim-choosewin'
-Plug 'liuchengxu/vim-clap'
 Plug 'mhinz/vim-startify'
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-surround'
@@ -71,7 +70,9 @@ Plug 'arzg/vim-colors-xcode'
 Plug 'sotte/presenting.vim'
 Plug 'lifepillar/vim-solarized8'
 Plug 'jaredgorski/fogbell.vim'
-Plug 'reedes/vim-colors-pencil'
+Plug 'robertmeta/nofrils'
+Plug 'owickstrom/vim-colors-paramount'
+Plug 'axvr/photon.vim'
 
 """""""""""""""""""""""""
 "Quick Task management
@@ -101,7 +102,6 @@ source $HOME/.vim/config/plugins/nerdtree.vim
 source $HOME/.vim/config/plugins/rainbow_parentheses.vim
 source $HOME/.vim/config/plugins/presenting.vim
 source $HOME/.vim/config/plugins/vim-choosewin.vim
-source $HOME/.vim/config/plugins/vim-clap.vim
 source $HOME/.vim/config/plugins/vim-markdown.vim
 source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
