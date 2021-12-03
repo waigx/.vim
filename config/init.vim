@@ -12,7 +12,7 @@ endif
 """""""""""""""""""""""""
 "Get avaiable terms
 if executable("zsh")
-	let g:preferedTerm = "zsh -l"
+	let g:preferedTerm = "zsh"
 elseif executable("bash")
-	let g:preferedTerm = "bash -l"
+	let g:preferedTerm = "bash"
 endif

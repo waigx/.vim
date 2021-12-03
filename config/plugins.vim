@@ -20,6 +20,7 @@ Plug 'will133/vim-dirdiff', {'on': 'DirDiff'}
 Plug 'szw/vim-maximizer', {'on': 'MaximizerToggle'}
 Plug 'junegunn/gv.vim', {'on': 'GV'}
 Plug 'junegunn/goyo.vim', {'on': 'Goyo'}
+Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'}
 Plug 't9md/vim-choosewin'
 Plug 'mhinz/vim-startify'
@@ -36,13 +37,14 @@ Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
 Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
 Plug 'tpope/vim-markdown'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'heavenshell/vim-jsdoc'
+"Plug 'heavenshell/vim-jsdoc'
 Plug 'avakhov/vim-yaml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kchmck/vim-coffee-script'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'liuchengxu/vista.vim'
+Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']}
 
 Plug 'puremourning/vimspector'
 

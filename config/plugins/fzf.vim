@@ -63,7 +63,7 @@ endfunction
 "FZF with DevIcons
 function! ListAllFiles()
 	call fzf#run(fzf#wrap({
-\		'source': 'rg -l ^' . s:pathPipelineSink,
+\		'source': 'rg --files' . s:pathPipelineSink,
 \		'options': '--preview="' . s:previewPipelineSource . '"',
 \		'sink': function('EditDevIconPath'),
 \	}))
