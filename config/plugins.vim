@@ -14,6 +14,7 @@ Plug 'benmills/vimux'
 Plug 'google/vim-searchindex'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'will133/vim-dirdiff', {'on': 'DirDiff'}

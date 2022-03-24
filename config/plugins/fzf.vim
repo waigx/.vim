@@ -2,7 +2,7 @@
 "fzf settings
 "fzf installed using Homebrew
 if g:uname == "Darwin"
-	set rtp+=/usr/local/opt/fzf
+	set rtp+=/opt/homebrew/bin/fzf
 endif
 "fzf installed using Git under home
 set rtp+=~/.fzf
