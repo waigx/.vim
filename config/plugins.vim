@@ -37,7 +37,10 @@ Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
 Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
 Plug 'tpope/vim-markdown'
 Plug 'HerringtonDarkholme/yats.vim'
-"Plug 'heavenshell/vim-jsdoc'
+Plug 'heavenshell/vim-jsdoc', {
+    \ 'for': ['javascript', 'javascript.jsx','typescript'],
+    \ 'do': 'make install'
+\}
 Plug 'avakhov/vim-yaml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kchmck/vim-coffee-script'
@@ -59,15 +62,11 @@ Plug 'junegunn/seoul256.vim'
 Plug 'tomasr/molokai'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'morhetz/gruvbox'
-Plug 'yuttie/hydrangea-vim'
 Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'AlessandroYorba/Despacio'
 Plug 'cocopon/iceberg.vim'
 Plug 'w0ng/vim-hybrid'
-Plug 'nightsense/snow'
-Plug 'nightsense/stellarized'
 Plug 'arcticicestudio/nord-vim'
-Plug 'nightsense/cosmic_latte'
 Plug 'arzg/vim-colors-xcode'
 Plug 'sotte/presenting.vim'
 Plug 'lifepillar/vim-solarized8'
