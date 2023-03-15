@@ -42,6 +42,8 @@ Plug 'rcarriga/nvim-notify'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
+
+"Auto completion
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
@@ -49,6 +51,16 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind.nvim'
 
+"Linting
+Plug 'nvim-lua/plenary.nvim'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'jay-babu/mason-null-ls.nvim'
+
+"Debugging
+Plug 'mfussenegger/nvim-dap'
+Plug 'jay-babu/mason-nvim-dap.nvim'
+
+"Misc
 Plug 'tpope/vim-markdown'
 Plug 'heavenshell/vim-jsdoc', {
     \ 'for': ['javascript', 'javascript.jsx','typescript'],
@@ -61,11 +73,11 @@ Plug 'mustache/vim-mustache-handlebars'
 
 """""""""""""""""""""""""
 "Themes
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'nvim-lualine/lualine.nvim'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim'}
 Plug 'ryanoasis/vim-devicons'
+Plug 'nvim-tree/nvim-web-devicons'
 Plug 'junegunn/seoul256.vim'
 Plug 'tomasr/molokai'
 Plug 'chriskempson/vim-tomorrow-theme'
@@ -104,7 +116,6 @@ call plug#end()
 
 """""""""""""""""""""""""
 "Plugin Configurations
-source $HOME/.vim/config/plugins/airline.vim
 source $HOME/.vim/config/plugins/comfortable-motion.vim
 source $HOME/.vim/config/plugins/fzf.vim
 source $HOME/.vim/config/plugins/nerdtree.vim
@@ -122,3 +133,4 @@ source $HOME/.vim/config/plugins/vimspector.vim
 "Lua configs
 source $HOME/.vim/config/plugins/mason.lua
 source $HOME/.vim/config/plugins/nvim-cmp.lua
+source $HOME/.vim/config/plugins/lualine.lua
