@@ -62,6 +62,7 @@ Plug 'jay-babu/mason-null-ls.nvim'
 Plug 'mfussenegger/nvim-dap'
 Plug 'jay-babu/mason-nvim-dap.nvim'
 "Misc
+Plug 'simrat39/symbols-outline.nvim'
 Plug 'tpope/vim-markdown'
 Plug 'heavenshell/vim-jsdoc', {
     \ 'for': ['javascript', 'javascript.jsx','typescript'],
@@ -133,3 +134,4 @@ source $HOME/.vim/config/plugins/mason.lua
 source $HOME/.vim/config/plugins/nvim-cmp.lua
 source $HOME/.vim/config/plugins/lualine.lua
 source $HOME/.vim/config/plugins/toggleterm.lua
+source $HOME/.vim/config/plugins/symbols-outline.lua

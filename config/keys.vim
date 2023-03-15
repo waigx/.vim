@@ -38,6 +38,9 @@ tnoremap <C-W>J <C-\><C-n><C-w>Ji
 imap <C-b> <Left>
 imap <C-f> <Right>
 
+"Map tags/outlines
+map <leader>g :SymbolsOutline<CR>
+
 "Map 'Undo Graphic'
 let g:gundo_prefer_python3 = 1
 map <leader>z :GundoToggle<CR>
