@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "Plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/.plugged')
 
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
@@ -30,27 +30,34 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 
 """""""""""""""""""""""""
+"UI enhancement
+Plug 'MunifTanjim/nui.nvim'
+
+"""""""""""""""""""""""""
+"Notifications
+Plug 'rcarriga/nvim-notify'
+
+"""""""""""""""""""""""""
 "Language supports
-Plug 'rust-lang/rust.vim'
-Plug 'vim-syntastic/syntastic'
-Plug 'dense-analysis/ale'
-Plug 'martinda/Jenkinsfile-vim-syntax', {'for': 'Jenkinsfile'}
-Plug 'drmingdrmer/vim-syntax-markdown', {'for': 'markdown'}
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'onsails/lspkind.nvim'
+
 Plug 'tpope/vim-markdown'
-Plug 'HerringtonDarkholme/yats.vim'
 Plug 'heavenshell/vim-jsdoc', {
     \ 'for': ['javascript', 'javascript.jsx','typescript'],
     \ 'do': 'make install'
 \}
-Plug 'avakhov/vim-yaml'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'kchmck/vim-coffee-script'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'mustache/vim-mustache-handlebars'
-Plug 'liuchengxu/vista.vim'
-Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']}
 
-Plug 'puremourning/vimspector'
+"Plug 'puremourning/vimspector'
 
 """""""""""""""""""""""""
 "Themes
@@ -109,5 +116,9 @@ source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
 source $HOME/.vim/config/plugins/vim-floaterm.vim
 source $HOME/.vim/config/plugins/asyncrun.vim
-source $HOME/.vim/config/plugins/vista.vim
 source $HOME/.vim/config/plugins/vimspector.vim
+
+"""""""""""""""""""""""""
+"Lua configs
+source $HOME/.vim/config/plugins/mason.lua
+source $HOME/.vim/config/plugins/nvim-cmp.lua

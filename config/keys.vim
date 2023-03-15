@@ -10,8 +10,6 @@ map <leader>h :set hlsearch! cursorcolumn! cursorline!<CR>
 map <leader>t :tabe<CR>
 "Map shortcuts for Maxmize and restore a window
 map <leader>m :MaximizerToggle<CR>
-"Map shortcuts for Vista/Tagbar
-map <leader>g :Vista!!<CR>
 "Map 'Check Grammar'
 map <leader>ck :SyntasticCheck<CR>
 "Map 'Spell Checking'
@@ -46,13 +44,11 @@ let g:gundo_prefer_python3 = 1
 map <leader>z :GundoToggle<CR>
 
 "Map ctrl+] for typescript file
-autocmd FileType typescript,typescript.tsx,typescriptreact,javascript,jsx nmap <silent> <C-]> <Plug>(coc-definition)
+"autocmd FileType typescript,typescript.tsx,typescriptreact,javascript,jsx nmap <silent> <C-]> <Plug>(coc-definition)
 "Map ctrl+] for python file
-autocmd FileType python nmap <silent> <C-]> <Plug>(coc-definition)
+"autocmd FileType python nmap <silent> <C-]> <Plug>(coc-definition)
 "Map 'JsDoc'
 map <leader>j :JsDoc<CR>
-"Map Auto Lint Fix
-map <leader>f :ALEFix<CR>
 
 "Map '-' for choosewin
 nmap  -  <Plug>(choosewin)

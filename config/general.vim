@@ -22,9 +22,13 @@ set nocursorcolumn
 set list
 set listchars=tab:┊\ ,trail:·
 set expandtab
+
+"Use block for insert mode
+set guicursor=i:block
+
 "Undo persistence
 set undofile
-set undodir=$HOME/.vim/undos
+set undodir=$HOME/.vim/.undos
 "Default shell
 let &shell=g:preferedTerm
 
