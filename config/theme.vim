@@ -29,6 +29,3 @@ else
     "set background=dark
 	silent! colorscheme antiphoton
 endif
-"let g:airline_theme='deus'
-"let g:airline_theme='nord'
-let g:airline_theme='minimalist'

@@ -27,13 +27,12 @@ map <leader>f :NERDTreeTabsFind<CR>
 map <leader>d :Goyo<CR>
 map <leader>l :Limelight!!<CR>
 
-"Map clap
-map <leader><Space> :Clap<CR>
-
 "Map floaterm
-map <C-t> :call ToggleFloatTerm()<CR>
-tmap <silent> <C-t> <C-w>:call ToggleFloatTerm()<CR>
-autocmd FileType floaterm tmap <buffer> <silent> <C-d> <C-w>:FloatermKill<CR>
+tnoremap <C-W>N <C-\><C-n>
+tnoremap <C-W>L <C-\><C-n><C-w>Li
+tnoremap <C-W>K <C-\><C-n><C-w>Ki
+tnoremap <C-W>H <C-\><C-n><C-w>Hi
+tnoremap <C-W>J <C-\><C-n><C-w>Ji
 
 "Map ctrl+b/f in insert mode to navigate
 imap <C-b> <Left>

@@ -6,8 +6,6 @@ Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'tmux-plugins/vim-tmux'
 Plug 'tpope/vim-obsession'
 Plug 'dhruvasagar/vim-prosession'
 Plug 'benmills/vimux'
@@ -25,24 +23,30 @@ Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'}
 Plug 't9md/vim-choosewin'
 Plug 'mhinz/vim-startify'
-Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+
+
+"""""""""""""""""""""""""
+"Window Management
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux'
+"TERM
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+
 
 """""""""""""""""""""""""
 "UI enhancement
 Plug 'MunifTanjim/nui.nvim'
-
-"""""""""""""""""""""""""
 "Notifications
 Plug 'rcarriga/nvim-notify'
+
 
 """""""""""""""""""""""""
 "Language supports
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
-
 "Auto completion
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -50,16 +54,13 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind.nvim'
-
 "Linting
 Plug 'nvim-lua/plenary.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'jay-babu/mason-null-ls.nvim'
-
 "Debugging
 Plug 'mfussenegger/nvim-dap'
 Plug 'jay-babu/mason-nvim-dap.nvim'
-
 "Misc
 Plug 'tpope/vim-markdown'
 Plug 'heavenshell/vim-jsdoc', {
@@ -69,7 +70,6 @@ Plug 'heavenshell/vim-jsdoc', {
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'mustache/vim-mustache-handlebars'
 
-"Plug 'puremourning/vimspector'
 
 """""""""""""""""""""""""
 "Themes
@@ -114,6 +114,7 @@ Plug 'tweekmonster/startuptime.vim'
 
 call plug#end()
 
+
 """""""""""""""""""""""""
 "Plugin Configurations
 source $HOME/.vim/config/plugins/comfortable-motion.vim
@@ -125,12 +126,10 @@ source $HOME/.vim/config/plugins/vim-choosewin.vim
 source $HOME/.vim/config/plugins/vim-markdown.vim
 source $HOME/.vim/config/plugins/vim-prosession.vim
 source $HOME/.vim/config/plugins/vim-startify.vim
-source $HOME/.vim/config/plugins/vim-floaterm.vim
 source $HOME/.vim/config/plugins/asyncrun.vim
 source $HOME/.vim/config/plugins/vimspector.vim
-
-"""""""""""""""""""""""""
 "Lua configs
 source $HOME/.vim/config/plugins/mason.lua
 source $HOME/.vim/config/plugins/nvim-cmp.lua
 source $HOME/.vim/config/plugins/lualine.lua
+source $HOME/.vim/config/plugins/toggleterm.lua
